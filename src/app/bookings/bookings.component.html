@@ -1,0 +1,9 @@
+<!-- booking.component.html -->
+<div class="booking-container" *ngIf="bookingDetails">
+    <h2>Booking Confirmation</h2>
+    <p><strong>Flight:</strong> {{ bookingDetails.flight.flightNumber }}</p>
+    <p><strong>Status:</strong> {{ bookingDetails.status }}</p>
+    <p><strong>User:</strong> {{ bookingDetails.user.username }}</p>
+    <p><strong>Email:</strong> {{ bookingDetails.user.email }}</p>
+    <p><strong>Phone:</strong> {{ bookingDetails.user.phone }}</p>
+  </div>

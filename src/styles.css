@@ -1,0 +1,10 @@
+body {
+    background-image: url('data:image/jpeg;base64,YOUR_BASE64_STRING_HERE');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  

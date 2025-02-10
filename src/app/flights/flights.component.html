@@ -1,0 +1,26 @@
+<div class="background">
+  
+    <nav class="nav-bar">
+      <button class="nav-button active">All Flights</button>
+      <button class="nav-button">Bookings</button>
+    </nav>
+  
+    <div class="booking-container">
+      <h2>Booking of a Flight</h2>
+  
+      <div class="booking-form">
+        <label for="departure">Departure</label>
+        <select id="departure" [(ngModel)]="selectedDeparture">
+          <option *ngFor="let city of departures" [value]="city">{{ city }}</option>
+        </select>
+  
+        <label for="arrival">Arrival</label>
+        <select id="arrival" [(ngModel)]="selectedArrival">
+          <option *ngFor="let city of arrivals" [value]="city">{{ city }}</option>
+        </select>
+  
+        <button class="book-button" (click)="bookFlight()">Book my flight</button>
+      </div>
+    </div>
+  </div>
+  

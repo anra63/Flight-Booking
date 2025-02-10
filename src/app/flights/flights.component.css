@@ -1,0 +1,102 @@
+/* Background Styling */
+.background {
+    background-image: url('https://source.unsplash.com/1600x900/?airplane,sky');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensure the background takes full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers content vertically */
+    text-align: center;
+    color: #4eb898;
+    font-family: Arial, sans-serif;
+    gap: 20px; /* Adds space between elements */
+}
+
+  /* Header */
+  /* Header */
+  header {
+    background: rgba(101, 186, 181, 0.6);
+    width: 100%;
+    padding: 8px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: -50px; /* ✅ Moves it slightly left */
+}
+  
+  
+  /* Navigation Bar */
+  .nav-bar {
+    margin: 10px;
+  }
+  
+  .nav-button {
+    background: #c4aeae;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .nav-button.active {
+    background: #4894e5;
+    color: white;
+  }
+  
+  /* Booking Container */
+  .booking-container {
+    background: rgba(163, 232, 181, 0.9);
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(30, 26, 26);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    /* Centering the booking container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  /* Booking Form */
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .booking-form label {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .booking-form select {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  /* Book Button */
+  .book-button {
+    background: #28a745;
+    color: white;
+    padding: 12px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .book-button:hover {
+    background: #218838;
+  }
+  
